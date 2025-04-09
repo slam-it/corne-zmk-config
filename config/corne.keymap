@@ -105,10 +105,10 @@
         layer_3 {
             display-name = "Lower";
             bindings = <
-&trans  &kp MINUS                &kp PLUS             &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS        &none     &kp RS(RC(TAB))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp RC(TAB)  &kp C_STOP         &kp C_PLAY_PAUSE
-&trans  &HML LEFT_CONTROL UNDER  &HML LEFT_ALT EQUAL  &HML LEFT_META LEFT_BRACE  &HML LEFT_SHIFT RIGHT_BRACE  &none     &kp LEFT         &kp DOWN              &kp UP                 &kp RIGHT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans  &minus_left_arrow        &equals_left_arrow   &kp LEFT_BRACKET           &kp RIGHT_BRACKET            &none     &kp HOME         &kp PAGE_DOWN         &kp PAGE_UP            &kp END      &kp C_MUTE         &kp RS(RG(NUMBER_4))
-                                                      &trans                     &trans                       &trans    &trans           &trans                &trans
+&trans  &kp F1                    &kp F2                &kp F3                   &kp F4                    &kp F5         &kp F6    &kp F7         &kp F8       &kp F9     &kp F10  &kp F11
+&trans  &HML LEFT_CONTROL C_PREV  &HML LEFT_ALT C_NEXT  &HML LEFT_META C_VOL_DN  &HML LEFT_SHIFT C_VOL_UP  &kp C_PP       &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none    &kp F12
+&trans  &none                     &kp RS(RC(TAB))       &kp RG(LEFT_BRACKET)     &kp RG(RIGHT_BRACKET)     &kp RC(TAB)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &none    &none
+                                                        &trans                   &trans                    &trans         &trans    &trans         &trans
             >;
         };
 
