@@ -65,7 +65,7 @@
             bindings = <
 &kp LEFT_SHIFT           &kp Q  &kp W  &kp E     &kp R  &kp T            &kp Y                  &kp U        &kp I                          &kp O    &kp P          &kp GRAVE
 &mt LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D     &kp F  &kp G            &kp H                  &kp J        &kp K                          &kp L    &kp SEMICOLON  &kp SQT
-&kp LEFT_ALT             &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N                  &kp M        &kp COMMA                      &kp DOT  &kp FSLH       &mt RIGHT_SHIFT BACKSLASH
+&mt LEFT_ALT TAB         &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N                  &kp M        &kp COMMA                      &kp DOT  &kp FSLH       &mt RS(RA(RC(RIGHT_GUI))) BACKSLASH
                                        &kp LGUI  &mo 3  &kp BACKSPACE    &mt RIGHT_SHIFT ENTER  &lt 4 SPACE  &mt RS(RA(RC(RIGHT_GUI))) TAB
             >;
         };
@@ -107,7 +107,7 @@
             bindings = <
 &trans  &none       &none       &none              &none         &none       &kp RS(RC(TAB))  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)  &none  &none
 &trans  &kp C_PREV  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PP    &kp LEFT         &kp DOWN              &kp UP                 &kp RIGHT    &none  &none
-&trans  &none       &none       &none              &none         &none       &kp HOME         &kp PAGE_DOWN         &kp PAGE_UP            &kp END      &none  &none
+&trans  &none       &none       &none              &none         &none       &kp HOME         &kp PAGE_DOWN         &kp PAGE_UP            &kp END      &none  &kp RIGHT_SHIFT
                                 &trans             &trans        &trans      &trans           &trans                &trans
             >;
         };
@@ -117,7 +117,7 @@
             bindings = <
 &trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5    &kp F6          &kp F7     &kp F8                 &kp F9           &kp F10            &kp F11
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp MINUS       &kp EQUAL  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp F12
-&trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0    &kp UNDERSCORE  &kp PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans
+&trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0    &kp UNDERSCORE  &kp PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT
                                     &trans        &trans        &trans    &trans          &trans     &trans
             >;
         };
