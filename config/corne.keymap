@@ -135,8 +135,8 @@
         layer_6 {
             display-name = "Lower";
             bindings = <
-&trans  &none  &equals_left_arrow  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &minus_left_arrow    &kp RS(RC(TAB))  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans  &none  &kp EQUAL           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS            &kp LEFT         &kp DOWN              &kp UP                 &kp RIGHT    &kp C_PREV         &kp C_NEXT
+&trans  &none  &equals_left_arrow  &kp LEFT_BRACE        &kp RIGHT_BRACE        &minus_left_arrow    &kp RS(RC(TAB))  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans  &none  &kp EQUAL           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS            &kp LEFT         &kp DOWN              &kp UP                 &kp RIGHT    &kp C_PREV         &kp C_NEXT
 &trans  &none  &kp PLUS            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE       &kp HOME         &kp PAGE_DOWN         &kp PAGE_UP            &kp END      &kp C_PP           &kp RS(RC(RA(RIGHT_GUI)))
                                    &trans                &trans                 &trans               &trans           &trans                &trans
             >;
