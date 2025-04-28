@@ -146,7 +146,7 @@
             bindings = <
 &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &trans     &trans         &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &kp NUMBER_6     &kp N7        &kp N8        &kp N9        &kp N0         &trans     &trans         &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &kp NUMBER_6     &kp N7        &kp N8        &kp N9        &kp N0         &trans     &trans         &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(RA(RC(RGUI)))
                                        &trans        &trans        &trans         &trans     &trans         &trans
             >;
         };
